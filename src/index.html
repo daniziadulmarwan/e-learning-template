@@ -3,11 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>E-Learning</title>
+    <title>Faizgit</title>
     <!-- Tailwind CSS -->
     <link rel="stylesheet" href="./global.css" />
     <!-- Phospor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+    <!-- Slick CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
   </head>
   <body>
     <!-- Discount -->
@@ -62,15 +68,15 @@
     <!-- Hero -->
     <section id="hero" class="bg-secondary-800 pt-36 pb-20">
       <div class="flex flex-col items-center justify-center">
-        <h1 class="text-5xl font-black text-white leading-">
+        <h1 class="text-6xl font-black text-white leading-">
           Screencast Efektif <br />untuk
           <div
-            class="border-2 mt-3 inline-block border-white text-3xl text-white rounded-xl px-3 py-2 rotate-3"
+            class="border-2 mt-3 inline-block border-white text-3xl text-white rounded-2xl px-3 py-2 rotate-3"
           >
-            Para Web Developer
+            Para Content Creator
           </div>
         </h1>
-        <p class="mt-7 text-xl text-secondary-100 w-[470px] text-center">
+        <p class="mt-7 text-2xl text-secondary-100 w-[570px] text-center">
           Tingkatkan level keahlian Anda melalui screencast dan artikel yang
           mendalam. Pelajari beragam topik penting seperti
           <span class="text-white font-medium"
@@ -97,17 +103,259 @@
 
     <!-- Benefits -->
     <section class="mt-[100px]">
-      <div class="container mx-auto py-3">
+      <div class="container mx-auto py-5">
         <div>
-          <h1 class="text-secondary-700 text-lg font-bold capitalize">
+          <h1
+            class="text-secondary-700 text-lg font-extrabold capitalize font-geist"
+          >
             Mau belajar apa hari ini ?
           </h1>
-          <p class="text-secondary-400 text-sm font-normal w-[480px]">
+          <p
+            class="text-secondary-400 text-sm font-normal w-[520px] font-geist leading-6"
+          >
             Hei, ada banyak pilihan menarik di sini, loh! Yuk, temukan sesuatu
             yang seru untuk dipelajari.
           </p>
         </div>
       </div>
+
+      <div class="pb-6 pt-8 bg-slate-50">
+        <div class="slider">
+          <!-- Card -->
+          <div
+            class="border border-slate-300 bg-white rounded-lg p-5 w-[380px]"
+          >
+            <div
+              class="border border-slate-200 rounded-lg w-12 h-12 grid place-items-center bg-slate-50"
+            >
+              <i class="ph ph-tiktok-logo text-2xl"></i>
+            </div>
+            <h5
+              class="text-lg font-extrabold text-secondary-800 mt-5 font-geist"
+            >
+              TikTok
+            </h5>
+            <p
+              class="mt-4 text-secondary-300 font-normal text-sm leading-6 font-geist"
+            >
+              Kursus tatap muka yang mengajarkan cara mengelola toko di TikTok
+              Shop, termasuk mengunggah produk, membuat program afiliasi, dan
+              mempraktekkan penjualan dengan live shopping.
+            </p>
+            <div class="flex items-center justify-end gap-2 mt-6">
+              <button
+                class="flex items-center gap-2 bg-white text-secondary-800 py-2 px-4 rounded-lg font-medium capitalize text-sm border"
+              >
+                <i class="ph ph-newspaper-clipping text-lg"></i>
+                Artikel
+              </button>
+              <button
+                class="flex items-center gap-2 bg-white text-secondary-800 py-2 px-4 rounded-lg font-medium capitalize text-sm border"
+              >
+                <i class="ph ph-play-circle text-xl"></i>
+                Series
+              </button>
+            </div>
+          </div>
+
+          <!-- Card -->
+          <div
+            class="border border-slate-300 bg-white rounded-lg p-5 w-[380px]"
+          >
+            <div
+              class="border border-slate-200 rounded-lg w-12 h-12 grid place-items-center bg-slate-50"
+            >
+              <i class="ph ph-meta-logo text-2xl"></i>
+            </div>
+            <h5
+              class="text-lg font-extrabold text-secondary-800 mt-5 font-geist"
+            >
+              Facebook
+            </h5>
+            <p
+              class="mt-4 text-secondary-300 font-normal text-sm leading-6 font-geist"
+            >
+              Pelatihan ini akan mengajarkan Anda cara membuat iklan Facebook
+              Ads, mulai dari merancang pengelolaan media sosial, membuat bahasa
+              iklan, hingga membuat laporan iklan.
+            </p>
+            <div class="flex items-center justify-end gap-2 mt-6">
+              <button
+                class="flex items-center gap-2 bg-white text-secondary-800 py-2 px-4 rounded-lg font-medium capitalize text-sm border"
+              >
+                <i class="ph ph-newspaper-clipping text-lg"></i>
+                Artikel
+              </button>
+              <button
+                class="flex items-center gap-2 bg-white text-secondary-800 py-2 px-4 rounded-lg font-medium capitalize text-sm border"
+              >
+                <i class="ph ph-play-circle text-xl"></i>
+                Series
+              </button>
+            </div>
+          </div>
+
+          <!-- Card -->
+          <div
+            class="border border-slate-300 bg-white rounded-lg p-5 w-[380px]"
+          >
+            <div
+              class="border border-slate-200 rounded-lg w-12 h-12 grid place-items-center bg-slate-50"
+            >
+              <i class="ph ph-linkedin-logo text-2xl"></i>
+            </div>
+            <h5
+              class="text-lg font-extrabold text-secondary-800 mt-5 font-geist"
+            >
+              Linked In
+            </h5>
+            <p
+              class="mt-4 text-secondary-300 font-normal text-sm leading-6 font-geist"
+            >
+              LinkedIn Learning menawarkan berbagai topik kursus, seperti bahasa
+              pemrograman, spreadsheet, analisis data, kecerdasan bisnis, dan
+              lainnya. LinkedIn Learning.
+            </p>
+            <div class="flex items-center justify-end gap-2 mt-6">
+              <button
+                class="flex items-center gap-2 bg-white text-secondary-800 py-2 px-4 rounded-lg font-medium capitalize text-sm border"
+              >
+                <i class="ph ph-newspaper-clipping text-lg"></i>
+                Artikel
+              </button>
+              <button
+                class="flex items-center gap-2 bg-white text-secondary-800 py-2 px-4 rounded-lg font-medium capitalize text-sm border"
+              >
+                <i class="ph ph-play-circle text-xl"></i>
+                Series
+              </button>
+            </div>
+          </div>
+
+          <!-- Card -->
+          <div
+            class="border border-slate-300 bg-white rounded-lg p-5 w-[380px]"
+          >
+            <div
+              class="border border-slate-200 rounded-lg w-12 h-12 grid place-items-center bg-slate-50"
+            >
+              <i class="ph ph-instagram-logo text-2xl"></i>
+            </div>
+            <h5
+              class="text-lg font-extrabold text-secondary-800 mt-5 font-geist"
+            >
+              Instagram
+            </h5>
+            <p
+              class="mt-4 text-secondary-300 font-normal text-sm leading-6 font-geist"
+            >
+              Kursus ini mengajarkan dasar-dasar Instagram Ads dan strategi
+              lanjutan untuk membuat kampanye iklan yang efektif. Kursus ini
+              mengajarkan strategi yang tepat dan efektif.
+            </p>
+            <div class="flex items-center justify-end gap-2 mt-6">
+              <button
+                class="flex items-center gap-2 bg-white text-secondary-800 py-2 px-4 rounded-lg font-medium capitalize text-sm border"
+              >
+                <i class="ph ph-newspaper-clipping text-lg"></i>
+                Artikel
+              </button>
+              <button
+                class="flex items-center gap-2 bg-white text-secondary-800 py-2 px-4 rounded-lg font-medium capitalize text-sm border"
+              >
+                <i class="ph ph-play-circle text-xl"></i>
+                Series
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-8 flex justify-end mr-10 gap-3">
+          <button class="border w-10 h-10 rounded-full bg-white slick-prev">
+            <i class="ph ph-caret-left"></i>
+          </button>
+          <button class="border w-10 h-10 rounded-full bg-white slick-next">
+            <i class="ph ph-caret-right"></i>
+          </button>
+        </div>
+      </div>
     </section>
+
+    <!-- Courses -->
+    <section class="mt-[100px]">
+      <div class="container mx-auto py-3">
+        <div>
+          <h1
+            class="text-secondary-700 text-lg font-extrabold capitalize font-geist"
+          >
+            Series terbaru
+          </h1>
+          <p
+            class="text-secondary-400 text-sm font-normal w-[480px] font-geist leading-6"
+          >
+            Series terbaru yang telah kami terbitkan.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="h-60"></div>
+
+    <!-- Js -->
+
+    <!-- JQuery -->
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+
+    <!-- Slick JS -->
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <!-- Custom Script -->
+    <script>
+      $(".slider").slick({
+        centerMode: true,
+        slidesToShow: 3,
+        dots: false,
+        focusOnSelect: true,
+        arrows: false,
+        responsive: [
+          {
+            breakpoint: 3000,
+            settings: {
+              slidesToShow: 3,
+            },
+          },
+          {
+            breakpoint: 1400,
+            settings: {
+              slidesToShow: 3,
+            },
+          },
+          {
+            breakpoint: 800,
+            settings: {
+              slidesToShow: 1,
+            },
+          },
+        ],
+      });
+
+      $(".slick-prev").click(function () {
+        $(".slider").slick("slickPrev");
+      });
+
+      $(".slick-next").click(function () {
+        $(".slider").slick("slickNext");
+      });
+    </script>
   </body>
 </html>

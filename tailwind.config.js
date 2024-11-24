@@ -25,6 +25,10 @@ module.exports = {
           800: "#1A1A1A",
         },
       },
+      fontFamily: {
+        geist: ["Geist Mono", "monospace"],
+        inter: ["Inter", "sans-serif"],
+      },
     },
   },
   plugins: [],
