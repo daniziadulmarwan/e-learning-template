@@ -28,6 +28,7 @@ module.exports = {
       fontFamily: {
         geist: ["Geist Mono", "monospace"],
         inter: ["Inter", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
     },
   },
